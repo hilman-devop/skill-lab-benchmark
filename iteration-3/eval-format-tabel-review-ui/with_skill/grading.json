@@ -1,0 +1,25 @@
+{
+  "assertion_results": [
+    {
+      "text": "Output harus berupa markdown table dengan kolom | Before | After | Why |",
+      "passed": false,
+      "evidence": "judge returned unparseable response: openai-compatible 404: {\"error\":{\"message\":\"Unknown request URL: POST /openapi/v1/chat/completions. Please check the URL for typos, or see the docs at https://console.groq.com/docs/\",\"type\":\"invalid_request_error\",\"code\":\"unknown_url\"}}\n"
+    },
+    {
+      "text": "Output menyarankan untuk tidak menggunakan ease-in untuk UI animation",
+      "passed": false,
+      "evidence": "judge returned unparseable response: openai-compatible 404: {\"error\":{\"message\":\"Unknown request URL: POST /openapi/v1/chat/completions. Please check the URL for typos, or see the docs at https://console.groq.com/docs/\",\"type\":\"invalid_request_error\",\"code\":\"unknown_url\"}}\n"
+    },
+    {
+      "text": "Output menyarankan durasi transisi di bawah 300ms",
+      "passed": false,
+      "evidence": "judge returned unparseable response: openai-compatible 404: {\"error\":{\"message\":\"Unknown request URL: POST /openapi/v1/chat/completions. Please check the URL for typos, or see the docs at https://console.groq.com/docs/\",\"type\":\"invalid_request_error\",\"code\":\"unknown_url\"}}\n"
+    }
+  ],
+  "summary": {
+    "passed": 0,
+    "failed": 3,
+    "total": 3,
+    "pass_rate": 0
+  }
+}

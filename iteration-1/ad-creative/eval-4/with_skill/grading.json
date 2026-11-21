@@ -1,0 +1,40 @@
+{
+  "assertion_results": [
+    {
+      "text": "Triggers on casual phrasing",
+      "passed": false,
+      "evidence": "judge returned unparseable response: openai-compatible 401: {\n    \"error\": {\n        \"message\": \"Incorrect API key provided: gsk_mXqA********************************************WALG. You can find your API key at https://platform.openai.com/account/api-keys.\",\n        \"type\": \"invalid_request_error\",\n        \"param\": null,\n        \"code\": \"invalid_api_key\"\n    }\n}\n"
+    },
+    {
+      "text": "Respects LinkedIn character limits (150/70/100)",
+      "passed": false,
+      "evidence": "judge returned unparseable response: openai-compatible 401: {\n    \"error\": {\n        \"message\": \"Incorrect API key provided: gsk_mXqA********************************************WALG. You can find your API key at https://platform.openai.com/account/api-keys.\",\n        \"type\": \"invalid_request_error\",\n        \"param\": null,\n        \"code\": \"invalid_api_key\"\n    }\n}\n"
+    },
+    {
+      "text": "Adapts tone for enterprise security audience",
+      "passed": false,
+      "evidence": "judge returned unparseable response: openai-compatible 401: {\n    \"error\": {\n        \"message\": \"Incorrect API key provided: gsk_mXqA********************************************WALG. You can find your API key at https://platform.openai.com/account/api-keys.\",\n        \"type\": \"invalid_request_error\",\n        \"param\": null,\n        \"code\": \"invalid_api_key\"\n    }\n}\n"
+    },
+    {
+      "text": "Uses risk-reduction and compliance language",
+      "passed": false,
+      "evidence": "judge returned unparseable response: openai-compatible 401: {\n    \"error\": {\n        \"message\": \"Incorrect API key provided: gsk_mXqA********************************************WALG. You can find your API key at https://platform.openai.com/account/api-keys.\",\n        \"type\": \"invalid_request_error\",\n        \"param\": null,\n        \"code\": \"invalid_api_key\"\n    }\n}\n"
+    },
+    {
+      "text": "Provides multiple angles relevant to security buyers",
+      "passed": false,
+      "evidence": "judge returned unparseable response: openai-compatible 401: {\n    \"error\": {\n        \"message\": \"Incorrect API key provided: gsk_mXqA********************************************WALG. You can find your API key at https://platform.openai.com/account/api-keys.\",\n        \"type\": \"invalid_request_error\",\n        \"param\": null,\n        \"code\": \"invalid_api_key\"\n    }\n}\n"
+    },
+    {
+      "text": "Suggests LinkedIn ad format recommendations",
+      "passed": false,
+      "evidence": "judge returned unparseable response: openai-compatible 401: {\n    \"error\": {\n        \"message\": \"Incorrect API key provided: gsk_mXqA********************************************WALG. You can find your API key at https://platform.openai.com/account/api-keys.\",\n        \"type\": \"invalid_request_error\",\n        \"param\": null,\n        \"code\": \"invalid_api_key\"\n    }\n}\n"
+    }
+  ],
+  "summary": {
+    "passed": 0,
+    "failed": 6,
+    "total": 6,
+    "pass_rate": 0
+  }
+}

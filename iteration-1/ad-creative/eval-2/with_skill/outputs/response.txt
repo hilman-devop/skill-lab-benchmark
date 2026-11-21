@@ -1,0 +1,8 @@
+ERROR: openai-compatible 401: {
+    "error": {
+        "message": "Incorrect API key provided: gsk_mXqA********************************************WALG. You can find your API key at https://platform.openai.com/account/api-keys.",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "invalid_api_key"
+    }
+}

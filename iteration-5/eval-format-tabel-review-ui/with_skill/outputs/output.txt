@@ -1,0 +1,3 @@
+| Before | After | Why |
+| --- | --- | --- |
+| `transition: all 300ms ease-in` | `transition: transform 200ms ease-out` | Specify exact properties; avoid `all`. `ease-in` feels slow, `ease-out` feels more responsive. 300ms is too long for most UI interactions. |

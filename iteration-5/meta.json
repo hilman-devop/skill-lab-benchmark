@@ -1,0 +1,12 @@
+{
+  "name": "emil-design-eng",
+  "slug": "emil-design-eng",
+  "relPath": "",
+  "target": "llama-3.3-70b-versatile",
+  "judge": "llama-3.3-70b-versatile",
+  "modes": [
+    "with_skill",
+    "without_skill"
+  ],
+  "generated_at": "2026-06-24T10:08:09.557Z"
+}

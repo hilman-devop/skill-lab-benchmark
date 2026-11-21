@@ -1,0 +1,45 @@
+{
+  "assertion_results": [
+    {
+      "text": "Respects Google RSA character limits (30 char headlines, 90 char descriptions)",
+      "passed": false,
+      "evidence": "judge returned unparseable response: openai-compatible 401: {\n    \"error\": {\n        \"message\": \"Incorrect API key provided: gsk_mXqA********************************************WALG. You can find your API key at https://platform.openai.com/account/api-keys.\",\n        \"type\": \"invalid_request_error\",\n        \"param\": null,\n        \"code\": \"invalid_api_key\"\n    }\n}\n"
+    },
+    {
+      "text": "Generates 10-15 headline variations",
+      "passed": false,
+      "evidence": "judge returned unparseable response: openai-compatible 401: {\n    \"error\": {\n        \"message\": \"Incorrect API key provided: gsk_mXqA********************************************WALG. You can find your API key at https://platform.openai.com/account/api-keys.\",\n        \"type\": \"invalid_request_error\",\n        \"param\": null,\n        \"code\": \"invalid_api_key\"\n    }\n}\n"
+    },
+    {
+      "text": "Generates 4+ description variations",
+      "passed": false,
+      "evidence": "judge returned unparseable response: openai-compatible 401: {\n    \"error\": {\n        \"message\": \"Incorrect API key provided: gsk_mXqA********************************************WALG. You can find your API key at https://platform.openai.com/account/api-keys.\",\n        \"type\": \"invalid_request_error\",\n        \"param\": null,\n        \"code\": \"invalid_api_key\"\n    }\n}\n"
+    },
+    {
+      "text": "Includes target keyword in headlines",
+      "passed": false,
+      "evidence": "judge returned unparseable response: openai-compatible 401: {\n    \"error\": {\n        \"message\": \"Incorrect API key provided: gsk_mXqA********************************************WALG. You can find your API key at https://platform.openai.com/account/api-keys.\",\n        \"type\": \"invalid_request_error\",\n        \"param\": null,\n        \"code\": \"invalid_api_key\"\n    }\n}\n"
+    },
+    {
+      "text": "Notes pinning should be used sparingly per skill guidance",
+      "passed": false,
+      "evidence": "judge returned unparseable response: openai-compatible 401: {\n    \"error\": {\n        \"message\": \"Incorrect API key provided: gsk_mXqA********************************************WALG. You can find your API key at https://platform.openai.com/account/api-keys.\",\n        \"type\": \"invalid_request_error\",\n        \"param\": null,\n        \"code\": \"invalid_api_key\"\n    }\n}\n"
+    },
+    {
+      "text": "Suggests ad extensions",
+      "passed": false,
+      "evidence": "judge returned unparseable response: openai-compatible 401: {\n    \"error\": {\n        \"message\": \"Incorrect API key provided: gsk_mXqA********************************************WALG. You can find your API key at https://platform.openai.com/account/api-keys.\",\n        \"type\": \"invalid_request_error\",\n        \"param\": null,\n        \"code\": \"invalid_api_key\"\n    }\n}\n"
+    },
+    {
+      "text": "Uses angle-based variation approach",
+      "passed": false,
+      "evidence": "judge returned unparseable response: openai-compatible 401: {\n    \"error\": {\n        \"message\": \"Incorrect API key provided: gsk_mXqA********************************************WALG. You can find your API key at https://platform.openai.com/account/api-keys.\",\n        \"type\": \"invalid_request_error\",\n        \"param\": null,\n        \"code\": \"invalid_api_key\"\n    }\n}\n"
+    }
+  ],
+  "summary": {
+    "passed": 0,
+    "failed": 7,
+    "total": 7,
+    "pass_rate": 0
+  }
+}

@@ -1,0 +1,26 @@
+Kode CSS tersebut digunakan untuk membuat efek transisi pada elemen dengan kelas `.box`. Berikut adalah penjelasan lebih lanjut tentang kode tersebut:
+
+* `.box`: ini adalah selector yang menargetkan elemen dengan kelas `box`.
+* `transition`: ini adalah properti yang digunakan untuk membuat efek transisi pada elemen.
+* `all`: ini adalah nilai yang menentukan bahwa efek transisi akan diterapkan pada semua properti elemen, seperti `width`, `height`, `background-color`, `opacity`, dll.
+* `300ms`: ini adalah nilai yang menentukan durasi waktu yang dibutuhkan untuk menyelesaikan transisi, dalam hal ini adalah 300 milidetik (0,3 detik).
+* `ease-in`: ini adalah nilai yang menentukan jenis kurva transisi, dalam hal ini adalah `ease-in`, yang berarti transisi akan dimulai dengan kecepatan yang lambat dan kemudian meningkat.
+
+Dengan demikian, kode CSS tersebut akan membuat efek transisi yang halus dan lancar pada elemen dengan kelas `.box`, dengan durasi waktu 0,3 detik dan jenis kurva transisi `ease-in`.
+
+Contoh penggunaan kode CSS tersebut:
+```css
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #f00;
+  transition: all 300ms ease-in;
+}
+
+.box:hover {
+  width: 200px;
+  height: 200px;
+  background-color: #0f0;
+}
+```
+Dalam contoh di atas, ketika elemen dengan kelas `.box` dihover, maka lebar dan tinggi elemen akan berubah menjadi 200px, dan warna latar belakang akan berubah menjadi hijau. Transisi ini akan dilakukan dengan durasi waktu 0,3 detik dan jenis kurva transisi `ease-in`.

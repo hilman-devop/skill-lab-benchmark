@@ -1,0 +1,50 @@
+{
+  "assertion_results": [
+    {
+      "text": "Checks for product-marketing-context.md",
+      "passed": false,
+      "evidence": "judge returned unparseable response: openai-compatible 401: {\n    \"error\": {\n        \"message\": \"Incorrect API key provided: gsk_mXqA********************************************WALG. You can find your API key at https://platform.openai.com/account/api-keys.\",\n        \"type\": \"invalid_request_error\",\n        \"param\": null,\n        \"code\": \"invalid_api_key\"\n    }\n}\n"
+    },
+    {
+      "text": "Uses angle-based generation approach",
+      "passed": false,
+      "evidence": "judge returned unparseable response: openai-compatible 401: {\n    \"error\": {\n        \"message\": \"Incorrect API key provided: gsk_mXqA********************************************WALG. You can find your API key at https://platform.openai.com/account/api-keys.\",\n        \"type\": \"invalid_request_error\",\n        \"param\": null,\n        \"code\": \"invalid_api_key\"\n    }\n}\n"
+    },
+    {
+      "text": "Identifies multiple angles (3-5)",
+      "passed": false,
+      "evidence": "judge returned unparseable response: openai-compatible 401: {\n    \"error\": {\n        \"message\": \"Incorrect API key provided: gsk_mXqA********************************************WALG. You can find your API key at https://platform.openai.com/account/api-keys.\",\n        \"type\": \"invalid_request_error\",\n        \"param\": null,\n        \"code\": \"invalid_api_key\"\n    }\n}\n"
+    },
+    {
+      "text": "Respects Meta character limits (125/40/30)",
+      "passed": false,
+      "evidence": "judge returned unparseable response: openai-compatible 401: {\n    \"error\": {\n        \"message\": \"Incorrect API key provided: gsk_mXqA********************************************WALG. You can find your API key at https://platform.openai.com/account/api-keys.\",\n        \"type\": \"invalid_request_error\",\n        \"param\": null,\n        \"code\": \"invalid_api_key\"\n    }\n}\n"
+    },
+    {
+      "text": "Generates multiple variations per angle",
+      "passed": false,
+      "evidence": "judge returned unparseable response: openai-compatible 401: {\n    \"error\": {\n        \"message\": \"Incorrect API key provided: gsk_mXqA********************************************WALG. You can find your API key at https://platform.openai.com/account/api-keys.\",\n        \"type\": \"invalid_request_error\",\n        \"param\": null,\n        \"code\": \"invalid_api_key\"\n    }\n}\n"
+    },
+    {
+      "text": "Suggests image or visual direction",
+      "passed": false,
+      "evidence": "judge returned unparseable response: openai-compatible 401: {\n    \"error\": {\n        \"message\": \"Incorrect API key provided: gsk_mXqA********************************************WALG. You can find your API key at https://platform.openai.com/account/api-keys.\",\n        \"type\": \"invalid_request_error\",\n        \"param\": null,\n        \"code\": \"invalid_api_key\"\n    }\n}\n"
+    },
+    {
+      "text": "Includes hook, body, and CTA for each",
+      "passed": false,
+      "evidence": "judge returned unparseable response: openai-compatible 401: {\n    \"error\": {\n        \"message\": \"Incorrect API key provided: gsk_mXqA********************************************WALG. You can find your API key at https://platform.openai.com/account/api-keys.\",\n        \"type\": \"invalid_request_error\",\n        \"param\": null,\n        \"code\": \"invalid_api_key\"\n    }\n}\n"
+    },
+    {
+      "text": "Recommends which angles to test first",
+      "passed": false,
+      "evidence": "judge returned unparseable response: openai-compatible 401: {\n    \"error\": {\n        \"message\": \"Incorrect API key provided: gsk_mXqA********************************************WALG. You can find your API key at https://platform.openai.com/account/api-keys.\",\n        \"type\": \"invalid_request_error\",\n        \"param\": null,\n        \"code\": \"invalid_api_key\"\n    }\n}\n"
+    }
+  ],
+  "summary": {
+    "passed": 0,
+    "failed": 8,
+    "total": 8,
+    "pass_rate": 0
+  }
+}

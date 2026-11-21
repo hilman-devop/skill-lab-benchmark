@@ -1,0 +1,25 @@
+{
+  "assertion_results": [
+    {
+      "text": "Output harus berupa markdown table dengan kolom | Before | After | Why |",
+      "passed": true,
+      "evidence": "| Before | After | Why |"
+    },
+    {
+      "text": "Output menyarankan untuk tidak menggunakan ease-in untuk UI animation",
+      "passed": true,
+      "evidence": "`ease-in` feels slow, `ease-out` feels more responsive."
+    },
+    {
+      "text": "Output menyarankan durasi transisi di bawah 300ms",
+      "passed": true,
+      "evidence": "300ms is too long for most UI interactions."
+    }
+  ],
+  "summary": {
+    "passed": 3,
+    "failed": 0,
+    "total": 3,
+    "pass_rate": 1
+  }
+}

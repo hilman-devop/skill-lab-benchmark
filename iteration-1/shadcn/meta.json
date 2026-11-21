@@ -1,0 +1,12 @@
+{
+  "name": "shadcn",
+  "slug": "shadcn",
+  "relPath": "shadcn",
+  "target": "gpt-4o-mini",
+  "judge": "gpt-4o-mini",
+  "modes": [
+    "with_skill",
+    "without_skill"
+  ],
+  "generated_at": "2026-06-24T10:07:20.111Z"
+}
